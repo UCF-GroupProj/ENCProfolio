@@ -19,6 +19,7 @@
   justify-content:space-evenly;
   flex-flow:wrap;
   justify-content: center;
+  padding-top: 1rem;
 }
 .navbtn {
   /* generate a nice a tag button */
@@ -27,7 +28,7 @@
   color: white;
   min-width: 14.6rem;
   padding: 0.5rem 3rem;
-  margin: 1rem 1rem;
+  margin:00 1rem 1rem 1rem;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -35,11 +36,11 @@
   cursor: pointer;
   border-radius: 5px;
   box-sizing: border-box;
-  
-  /* transition: all 0.3s ease 0s; */
   transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
+
 .navbtn:hover {
   background-color: #378039;
   transform: translateY(2px);
