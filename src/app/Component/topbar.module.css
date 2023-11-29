@@ -1,0 +1,47 @@
+.topbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.topbar > div:first-child {
+  padding: 0 2rem;
+  min-width: 150px;
+  border-right: 1px solid #e6e6e6;
+  margin-right: 1rem;
+}
+.navContainer {
+  /* create a grid container that supports unknown number of nav buttons */
+  display: flex;
+  align-content: row;
+  justify-content:space-evenly;
+  flex-flow:wrap;
+  justify-content: center;
+}
+.navbtn {
+  /* generate a nice a tag button */
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  min-width: 14.6rem;
+  padding: 0.5rem 3rem;
+  margin: 1rem 1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-sizing: border-box;
+  
+  /* transition: all 0.3s ease 0s; */
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.navbtn:hover {
+  background-color: #378039;
+  transform: translateY(2px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
