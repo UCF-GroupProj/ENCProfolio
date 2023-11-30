@@ -7,8 +7,20 @@ export default function Home() {
   return (
     <Fragment>
       <Topbar/>
-      <div className={styles.textholder}>
-        
+      <div className={styles.centerDiv}>
+        <div className={styles.holderParent}>
+          <div className={styles.textHolder}>
+            <p>hdihsaidoasdoisajoisjosadasd</p>
+            <p>hdihsaidoasdoisajoisjosadasd</p>
+            <p>hdihsaidoasdoisajoisjosadasd</p>
+            <p>hdihsaidoasdoisajoisjosadasd</p>
+            <p>hdihsaidoasdoisajoisjosadasd</p>
+            <p>hdihsaidoasdoisajoisjosadasd</p>
+            <p>hdihsaidoasdoisajoisjosadasd</p>
+            <p>hdihsaidoasdoisajoisjosadasd</p>
+            <p>hdihsaidoasdoisajoisjosadasd</p>
+          </div>
+        </div>
       </div>
     </Fragment>
   )
