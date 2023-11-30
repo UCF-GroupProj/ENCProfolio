@@ -1,0 +1,23 @@
+.mainCard {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    column-gap: 2rem;
+    background-color: white;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 90rem;
+    margin-bottom: 2rem;
+    padding: 0.5rem;
+}
+.cardImage {
+    border-radius: 5px;
+    max-width: 100%;
+    height: auto;
+}
+.cardImage img {
+    max-width: 20rem;
+    max-height: 20rem;
+}
+.cardText {
+    text-align: left;
+}

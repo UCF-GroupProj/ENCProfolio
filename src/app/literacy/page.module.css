@@ -1,0 +1,14 @@
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    padding-top: 2rem;
+    box-sizing: border-box;
+}
+
+.formatTxt {
+    text-indent: 30px;
+    word-wrap: break-word;
+}
