@@ -7,6 +7,9 @@ export default function Home() {
   return (
     <Fragment>
       <Topbar/>
+      <div className={styles.textholder}>
+        
+      </div>
     </Fragment>
   )
 }
