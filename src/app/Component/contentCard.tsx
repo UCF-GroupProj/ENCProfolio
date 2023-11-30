@@ -2,20 +2,26 @@
 
 import React from "react";
 import style from './contentcard.module.css';
-import Link from "next/link";
 
-export default class contentCard extends React.Component {
+type cardProps = {
+    image: string,
+    link: string,
+    children: React.ReactNode
+}
+
+export default class contentCard extends React.Component<cardProps> {
+    constructor(props: cardProps) {
+        super(props);
+    }
     render() {
         return (<div className={style.mainCard}>
             <div className={style.cardImage}>
-                <img src="https://via.placeholder.com/150" />
+                <a href={this.props.link} target="_blank">
+                    <img src={this.props.image ?? "https://via.placeholder.com/1000"} alt="Image"/>
+                </a>
             </div>
             <div className={style.cardText}>
-                <h2>Card Title</h2>
-                <p>Card DescriptionCard DescriptionCard DescriptionCard DescriptionCard DescriptionCard DescriptionCard DescriptionCard DescriptionCard DescriptionCard DescriptionCard DescriptionCard DescriptionCard DescriptionCard DescriptionCard DescriptionCard DescriptionCard DescriptionCard DescriptionCard DescriptionCard DescriptionCard DescriptionCard DescriptionCard DescriptionCard DescriptionCard DescriptionCard DescriptionCard Description</p>
-                <Link href="/literacy/page">
-                    Read More
-                </Link>
+                {this.props.children}
             </div>
         </div>)
     }

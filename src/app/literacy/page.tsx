@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import styles from './page.module.css'
 import Topbar from '../Component/topbar';
+import Header from '../Component/header';
 import { Fragment } from 'react';
 import ContentCard from '../Component/contentCard';
 
@@ -8,9 +9,16 @@ export default function Home() {
   return (
     <Fragment>
       <Topbar/>
+      <Header text="Multi-Literacy"/>
       <div className={styles.center}>
-        <ContentCard/>
-        <ContentCard/>
+        <ContentCard image="https://via.placeholder.com/1000" link="https://via.placeholder.com/1000">
+          <p>HELLO WORLD!</p>
+        </ContentCard>
+        <ContentCard image="https://via.placeholder.com/1000" link="https://via.placeholder.com/1000">
+          <div className={styles.formatTxt}>
+            <p>sdoasjdoisajdisajdoisajdoisajdoisdoasjdoisajdisajdoisajdoisajdoisdoasjdoisajdisajdoisajdoisajdoisdoasjdoisajdisajdoisajdoisajdoisdoasjdoisajdisajdoisajdoisajdoisdoasjdoisajdisajdoisajdoisajdoisdoasjdoisajdisajdoisajdoisajdoisdoasjdoisajdisajdoisajdoisajdoisdoasjdoisajdisajdoisajdoisajdoisdoasjdoisajdisajdoisajdoisajdoisdoasjdoisajdisajdoisajdoisajdoisdoasjdoisajdisajdoisajdoisajdoisdoasjdoisajdisajdoisajdoisajdoisdoasjdoisajdisajdoisajdoisajdoisdoasjdoisajdisajdoisajdoisajdoisdoasjdoisajdisajdoisajdoisajdoisdoasjdoisajdisajdoisajdoisajdoisdoasjdoisajdisajdoisajdoisajdoisdoasjdoisajdisajdoisajdoisajdoisdoasjdoisajdisajdoisajdoisajdoisdoasjdoisajdisajdoisajdoisajdoisdoasjdoisajdisajdoisajdoisajdoisdoasjdoisajdisajdoisajdoisajdoisdoasjdoisajdisajdoisajdoisajdoisdoasjdoisajdisajdoisajdoisajdoisdoasjdoisajdisajdoisajdoisajdoisdoasjdoisajdisajdoisajdoisajdoisdoasjdoisajdisajdoisajdoisajdoisdoasjdoisajdisajdoisajdoisajdoi</p>
+          </div>
+        </ContentCard>
       </div>
     </Fragment>
   )
