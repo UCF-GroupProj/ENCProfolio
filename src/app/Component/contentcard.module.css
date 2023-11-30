@@ -1,0 +1,21 @@
+.mainCard {
+    background-color: white;
+    border-radius: 5px;
+    width: 50rem;
+    margin-bottom: 2rem;
+    padding: 0.5rem;
+}
+.mainCard div {
+    display: inline-block;
+}
+.cardImage {
+    border-radius: 5px;
+    padding-right: 1rem;
+}
+.cardText {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
