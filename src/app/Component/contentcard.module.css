@@ -6,8 +6,8 @@
     border-radius: 5px;
     width: 100%;
     max-width: 90rem;
+    padding: 0.5rem 0;
     margin-bottom: 2rem;
-    padding: 0.5rem;
 }
 .cardImage {
     border-radius: 5px;
@@ -15,9 +15,15 @@
     height: auto;
 }
 .cardImage img {
+    margin-left: 0.5rem;
     max-width: 20rem;
     max-height: 20rem;
 }
 .cardText {
     text-align: left;
+    margin-right: 1rem;
+}
+.formatTxt {
+    text-indent: 30px;
+    word-wrap: break-word;
 }
