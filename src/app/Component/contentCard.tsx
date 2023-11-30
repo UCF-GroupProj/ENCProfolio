@@ -21,7 +21,9 @@ export default class contentCard extends React.Component<cardProps> {
                 </a>
             </div>
             <div className={style.cardText}>
-                {this.props.children}
+                <div className={style.formatTxt}>
+                    {this.props.children}
+                </div>
             </div>
         </div>)
     }

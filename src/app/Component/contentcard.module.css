@@ -21,4 +21,9 @@
 }
 .cardText {
     text-align: left;
+    margin-right: 1rem;
+}
+.formatTxt {
+    text-indent: 30px;
+    word-wrap: break-word;
 }
