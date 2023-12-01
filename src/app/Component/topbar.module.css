@@ -3,7 +3,7 @@
   justify-content: flex-start;
   align-items: center;
   padding: 0;
-  background-color: #fff;
+  background: linear-gradient(to bottom, #87CEEB, #67b0f8);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 .topbar > div:first-child {

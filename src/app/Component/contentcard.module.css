@@ -13,6 +13,7 @@
     border-radius: 5px;
     max-width: 100%;
     height: auto;
+    cursor: zoom-in;
 }
 .cardImage img {
     margin-left: 0.5rem;
@@ -47,6 +48,9 @@
 .imgZoomModal img {
     max-width: 80%;
     max-height: 80%;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
 }
 @keyframes modalFrame {
     from {
