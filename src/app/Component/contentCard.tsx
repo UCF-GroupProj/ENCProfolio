@@ -8,8 +8,8 @@ type cardProps = {
     link: string,
     children: React.ReactNode,
     img?: {
-        maxWidth?: number,
-        maxHeight?: number
+        maxWidth?: string,
+        maxHeight?: string
     }
 }
 
