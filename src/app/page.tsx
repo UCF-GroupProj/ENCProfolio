@@ -9,16 +9,8 @@ export default function Home() {
       <Topbar/>
       <div className={styles.centerDiv}>
         <div className={styles.holderParent}>
-          <div className={styles.textHolder}>
-            <p>hdihsaidoasdoisajoisjosadasd</p>
-            <p>hdihsaidoasdoisajoisjosadasd</p>
-            <p>hdihsaidoasdoisajoisjosadasd</p>
-            <p>hdihsaidoasdoisajoisjosadasd</p>
-            <p>hdihsaidoasdoisajoisjosadasd</p>
-            <p>hdihsaidoasdoisajoisjosadasd</p>
-            <p>hdihsaidoasdoisajoisjosadasd</p>
-            <p>hdihsaidoasdoisajoisjosadasd</p>
-            <p>hdihsaidoasdoisajoisjosadasd</p>
+          <div className={styles.documentDiv}>
+            <iframe src="https://drive.google.com/file/d/1QetiktiAuPtUdWOQ2ifoIpdDlOOG4-Jr/preview" className={styles.documentFrame} ></iframe>
           </div>
         </div>
       </div>
