@@ -11,10 +11,10 @@ export default function Home() {
       <Topbar/>
       <Header text="Multi-Literacy"/>
       <div className="cardContainer">
-        <ContentCard image="https://via.placeholder.com/1000" link="https://via.placeholder.com/1000">
+        <ContentCard image="https://via.placeholder.com/1000">
           <p>HELLO WORLD!</p>
         </ContentCard>
-        <ContentCard image="https://via.placeholder.com/1000" link="https://via.placeholder.com/1000">
+        <ContentCard image="/Sample.png">
           <p>sdoasjdoisajdisajdoisajdoisajdoisdoasjdoisajdisajdoisajdoisajdoisdoasjdoisajdisajdoisajdoisajdoisdoasjdoisajdisajdoisajdoisajdoisdoasjdoisajdisajdoisajdoisajdoisdoasjdoisajdisajdoisajdoisajdoisdoasjdoisajdisajdoisajdoisajdoisdoasjdoisajdisajdoisajdoisajdoisdoasjdoisajdisajdoisajdoisajdoisdoasjdoisajdisajdoisajdoisajdoisdoasjdoisajdisajdoisajdoisajdoisdoasjdoisajdisajdoisajdoisajdoisdoasjdoisajdisajdoisajdoisajdoisdoasjdoisajdisajdoisajdoisajdoisdoasjdoisajdisajdoisajdoisajdoisdoasjdoisajdisajdoisajdoisajdoisdoasjdoisajdisajdoisajdoisajdoisdoasjdoisajdisajdoisajdoisajdoisdoasjdoisajdisajdoisajdoisajdoisdoasjdoisajdisajdoisajdoisajdoisdoasjdoisajdisajdoisajdoisajdoisdoasjdoisajdisajdoisajdoisajdoisdoasjdoisajdisajdoisajdoisajdoisdoasjdoisajdisajdoisajdoisajdoisdoasjdoisajdisajdoisajdoisajdoisdoasjdoisajdisajdoisajdoisajdoisdoasjdoisajdisajdoisajdoisajdoisdoasjdoisajdisajdoisajdoisajdoisdoasjdoisajdisajdoisajdoisajdoi</p>
         </ContentCard>
       </div>
