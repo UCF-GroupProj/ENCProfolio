@@ -7,6 +7,8 @@ export default function Home() {
     <Fragment>
       <Topbar/>
       <Header text="Writing and Power" subtext='Students will be able to critically examine and act on the relationship among identity, literacy, language, and power'/>
+      <div className="cardContainer">
+      </div>
     </Fragment>
   )
 }

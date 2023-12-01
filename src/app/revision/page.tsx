@@ -7,6 +7,8 @@ export default function Home() {
     <Fragment>
       <Topbar/>
       <Header text="Revision" subtext='Students will be able negotiate differences in and act with intention on feedback from readers when drafting, revising, and editing their writing'/>
+      <div className="cardContainer">
+      </div>
     </Fragment>
   )
 }
