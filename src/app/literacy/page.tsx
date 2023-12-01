@@ -10,7 +10,7 @@ export default function Home() {
     <Fragment>
       <Topbar/>
       <Header text="Multi-Literacy"/>
-      <div className={styles.center}>
+      <div className="cardContainer">
         <ContentCard image="https://via.placeholder.com/1000" link="https://via.placeholder.com/1000">
           <p>HELLO WORLD!</p>
         </ContentCard>
