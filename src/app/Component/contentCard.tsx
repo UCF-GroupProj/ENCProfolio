@@ -33,11 +33,10 @@ export default class contentCard extends React.Component<cardProps> {
             </div>
         </div>)
     }
-    showImgZoomModal = () => {
+    showImgZoomModal = () =>
         this.modalBox.current?.style.setProperty("display", "flex");
-    }
-    hideImgZoomModal = (event: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
-        if (event.target !== this.modalBox.current) return;
-        this.modalBox.current?.style.setProperty("display", "none");
-    }
+    
+    hideImgZoomModal = (event: React.MouseEvent<HTMLDivElement, MouseEvent>) =>
+        (event.target === this.modalBox.current) ?
+            this.modalBox.current?.style.setProperty("display", "none") : undefined;
 }
