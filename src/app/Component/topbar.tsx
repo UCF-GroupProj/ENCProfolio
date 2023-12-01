@@ -15,8 +15,9 @@ export default class NavBar extends React.Component {
                 <Link className={style.navbtn} href="/literacy">Multiple Literacies</Link>
                 <Link className={style.navbtn} href="/context">Variation Context</Link>
                 <Link className={style.navbtn} href="/decision">Decision Making</Link>
-                <Link className={style.navbtn} href="/power">Writing/Power</Link>
+                <Link className={style.navbtn} href="/power">Power</Link>
                 <Link className={style.navbtn} href="/revision">Revision</Link>
+                <Link className={style.navbtn} href="/writing">Writing Process</Link>
             </div>
         </div>)
     }
