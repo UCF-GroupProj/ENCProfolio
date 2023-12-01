@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <Fragment>
       <Topbar/>
-      <Header text="Multi-Literacy"/>
+      <Header text="Multi-Literacy" subtext='Students will be able to describe and reflect on writing processes in order to flexibly adapt them to support their goals.'/>
       <div className="cardContainer">
         <ContentCard image="https://via.placeholder.com/1000">
           <p>HELLO WORLD!</p>

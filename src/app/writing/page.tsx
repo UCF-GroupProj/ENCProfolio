@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <Fragment>
       <Topbar/>
-      <Header text="Writing Processes"/>
+      <Header text="Writing Processes" subtext='Students will be able to describe and reflect on writing processes in order to flexibly adapt them to support their goals'/>
     </Fragment>
   )
 }

@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <Fragment>
       <Topbar/>
-      <Header text="Decision Making"/>
+      <Header text="Decision Making" subtext='Students will be able to produce writing that demonstrates their ability to navigate choices and constraints when writing for specific audiences, genres, and purposes'/>
     </Fragment>
   )
 }

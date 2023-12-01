@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <Fragment>
       <Topbar/>
-      <Header text="Writing/Power"/>
+      <Header text="Writing and Power" subtext='Students will be able to critically examine and act on the relationship among identity, literacy, language, and power. '/>
     </Fragment>
   )
 }

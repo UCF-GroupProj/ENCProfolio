@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <Fragment>
       <Topbar/>
-      <Header text="Revision"/>
+      <Header text="Revision" subtext='Students will be able negotiate differences in and act with intention on feedback from readers when drafting, revising, and editing their writing'/>
     </Fragment>
   )
 }
