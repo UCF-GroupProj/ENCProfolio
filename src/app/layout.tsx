@@ -5,9 +5,9 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://enc1101.zhiyan114.com/'),
   title: 'Composition Portfolio - zhiyan114',
   description: 'A final portfolio for Comp1101.',
-  themeColor: '#00FFFF',
   openGraph: {
     type: 'website',
     locale: 'en_US',
