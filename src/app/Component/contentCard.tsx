@@ -6,7 +6,11 @@ import style from './contentcard.module.css';
 type cardProps = {
     image: string,
     link: string,
-    children: React.ReactNode
+    children: React.ReactNode,
+    img?: {
+        maxWidth?: string,
+        maxHeight?: string
+    }
 }
 
 export default class contentCard extends React.Component<cardProps> {
@@ -17,7 +21,7 @@ export default class contentCard extends React.Component<cardProps> {
         return (<div className={style.mainCard}>
             <div className={style.cardImage}>
                 <a href={this.props.link} target="_blank">
-                    <img src={this.props.image ?? "https://via.placeholder.com/1000"} alt="Image"/>
+                    <img src={this.props.image ?? "https://via.placeholder.com/1000"} style={{maxWidth: this.props.img?.maxWidth, maxHeight: this.props.img?.maxHeight}} alt="Image"/>
                 </a>
             </div>
             <div className={style.cardText}>
