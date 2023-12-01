@@ -4,3 +4,13 @@ html, body {
   margin: 0;
   background-image: url("/background.png");
 }
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 2rem;
+  box-sizing: border-box;
+}
