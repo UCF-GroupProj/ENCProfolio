@@ -10,12 +10,15 @@ export default function Home() {
     <Fragment>
       <Topbar/>
       <Header text="Writing Processes"/>
-      <ContentCard img={{maxWidth: "80rem", maxHeight: "30rem"}} image="./writing-processes/highlighting.jpg" link="https://via.placeholder.com/1000">
+      <div className="cardContainer">
+        <ContentCard img={{maxWidth: "80rem", maxHeight: "30rem"}} image="./writing-processes/highlighting.jpg" link="https://via.placeholder.com/1000">
           <p></p>
-      </ContentCard>
-      <ContentCard img={{maxWidth: "60rem", maxHeight: "20rem"}} image="./writing-processes/free-writing.jpg" link="https://via.placeholder.com/1000">
-        <p></p>
-      </ContentCard>
+        </ContentCard>
+        <ContentCard img={{maxWidth: "60rem", maxHeight: "20rem"}} image="./writing-processes/free-writing.jpg" link="https://via.placeholder.com/1000">
+          <p></p>
+        </ContentCard>
+      </div>
+      
     </Fragment>
   )
 }
