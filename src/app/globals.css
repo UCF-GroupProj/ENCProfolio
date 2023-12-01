@@ -5,7 +5,7 @@ html, body {
   background-image: url("/background.png");
 }
 
-.center {
+.cardContainer {
   display: flex;
   flex-direction: column;
   justify-content: center;
