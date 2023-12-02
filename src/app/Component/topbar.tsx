@@ -18,7 +18,7 @@ export default class NavBar extends React.Component {
                 <Link className={style.navbtn} href="/decision">Decision Making</Link>
                 <Link className={style.navbtn} href="/power">Power</Link>
                 <Link className={style.navbtn} href="/revision">Revision</Link>
-                
+                <Link className={style.navbtn} href="/files">Artifact Files</Link>
             </div>
         </div>)
     }
