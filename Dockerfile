@@ -15,4 +15,4 @@ COPY . .
 RUN npm run build
 
 # Start
-CMD sleep 3 && npx next start -p ${PORT}
+CMD sleep 3 && npx next start -H 0.0.0.0 -p ${PORT}
