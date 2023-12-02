@@ -20,8 +20,8 @@ export default class contentCard extends React.Component<cardProps> {
     }
     render() {
         return (<div className={style.mainCard}>
-            <div className={style.cardImage} title="Click to zoom">
-                <img src={this.props.image ?? "https://via.placeholder.com/1000"} style={{maxWidth: this.props.img?.maxWidth, maxHeight: this.props.img?.maxHeight}} alt="Image" onClick={this.showImgZoomModal}/>
+            <div className={style.cardImage}>
+                <img src={this.props.image ?? "https://via.placeholder.com/1000"} title="Click to zoom" style={{maxWidth: this.props.img?.maxWidth, maxHeight: this.props.img?.maxHeight}} alt="Image" onClick={this.showImgZoomModal}/>
             </div>
             <div className={style.cardText}>
                 <div className={style.formatTxt}>

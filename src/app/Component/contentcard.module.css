@@ -13,9 +13,9 @@
     border-radius: 5px;
     max-width: 100%;
     height: auto;
-    cursor: zoom-in;
 }
 .cardImage img {
+    cursor: zoom-in;
     margin-left: 0.5rem;
     max-width: 15rem;
     max-height: 15rem;
