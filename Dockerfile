@@ -11,7 +11,6 @@ COPY package.json ./
 RUN npm install
 
 # Build Source
-COPY .git/ ./
 COPY . .
 RUN npm run build
 
