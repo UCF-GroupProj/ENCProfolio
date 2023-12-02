@@ -2,10 +2,6 @@
 
 const crypto = require('crypto');
 const path = require('path');
-let commitHash = require('child_process')
-  .execSync('git rev-parse --short HEAD')
-  .toString()
-  .trim();
 
 const hashOnlyIdent = (context, _, exportName) =>
     "uwu_"+crypto
@@ -13,7 +9,7 @@ const hashOnlyIdent = (context, _, exportName) =>
         .update(
         `filePath:${path
             .relative(context.rootContext, context.resourcePath)
-            .replace(/\\+/g, '/')}#className:${exportName}#BuildHash:${commitHash}`,
+            .replace(/\\+/g, '/')}#className:${exportName}#BuildHash:RailwayUnavailable`,
         )
         .digest('hex')
         .replace(/^(-?\d|--)/, '_$1').slice(0, 6);
@@ -39,7 +35,6 @@ const nextConfig = {
         return config;
     },
     poweredByHeader: false,
-    generateBuildId: async () => commitHash
 }
 
 module.exports = nextConfig
