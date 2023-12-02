@@ -41,3 +41,5 @@ const nextConfig = {
     poweredByHeader: false,
     generateBuildId: async () => commitHash
 }
+
+module.exports = nextConfig;

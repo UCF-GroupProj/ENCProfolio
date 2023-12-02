@@ -15,6 +15,9 @@ export default function Home() {
         <ContentCard image="Outcome2_literacy.png">
           <p>This artifact demonstrates that I was able to successfully use multiliteracy by utilize several editing tools within the animation software to create content that are entertaining for my target audiences.</p>
         </ContentCard>
+        <ContentCard image="/GeeReading_Literacy.png">
+          <p>This artifact (or reading) defines what my understanding of literacy is. If you look at it closely, it's esentially what my story-telling is, providing multiple second discourse during the acquisition of my literacy.</p>
+        </ContentCard>
       </div>
     </Fragment>
   )
