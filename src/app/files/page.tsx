@@ -12,7 +12,7 @@ export default function Home() {
       <div className={style.eCardContainer}>
         <EmbedCard title="Assignment/MA 1" link="https://zhiyan114assignment.blogspot.com/2023/09/stop-nickel-and-diming-college-student.html"/>
         <EmbedCard title="Assignment/MA 2" link="https://docs.google.com/document/d/e/2PACX-1vRXGOAS4x9y-olj90niDFvTDUewySxU0c-jY__REY602xwNb_BDXP0bArmMswQP4g47MkIbX_FSvH4c/pub?embedded=true"/>
-        <EmbedCard title="Assignment/MA 3" link="https://cdn.zhiyan114.com/download/32b4dd81-4ff3-4c6a-b726-cbfbce3c4712?web=1"/>
+        <EmbedCard title="Assignment/MA 3" link="https://www.youtube.com/embed/tY1MohKlyDo?si=AW_ZVEftXDeGleCf"/>
         <EmbedCard title="Assignment/MA 4" link="https://docs.google.com/document/d/e/2PACX-1vTBqFtRgfpnBy7RpK_VGvlWJeaMJXaLJxfIO4jp9OpTuMVFokjAzuJtZpmucWRirUYSRkerWT92bolz/pub?embedded=true"/>
         <EmbedCard title="Assignment/MA 1 Draft" link="https://zhiyan114assignment.blogspot.com/2023/09/stop-nickel-and-diming-college-students.html"/>
         <EmbedCard title="Assignment/MA 4 Draft" link="https://docs.google.com/document/d/e/2PACX-1vQ3Q1tfQS9R7D9ZB9QjPfk5c6jxZjAFgvm5QT4XHL-wZhzt7mnicGYejfqJ09WOy0anZkohr9XcwKL0/pub?embedded=true"/>
