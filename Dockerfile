@@ -1,5 +1,7 @@
 FROM node:20.3-alpine
 
+WORKDIR /src/
+
 # Install system dependencies
 RUN apk update
 RUN apk add git
@@ -9,6 +11,7 @@ COPY package.json ./
 RUN npm install
 
 # Build Source
+COPY .git/ ./
 COPY . .
 RUN npm run build
 
