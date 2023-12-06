@@ -7,3 +7,9 @@
     padding-top: 2rem;
     text-align: center;
 }
+
+.header p {
+    margin-top: 0;
+    font-weight: 450;
+    ;
+}

@@ -1,0 +1,38 @@
+.mainCard {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    column-gap: 2rem;
+    background-color: white;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 90rem;
+    padding: 0.5rem 0;
+    margin-bottom: 2rem;
+}
+
+.cardImage iframe {
+    margin-top: 1rem;
+    width: 50rem;
+    height: 50rem;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.cardImage img {
+    cursor: zoom-in;
+    margin-left: 0.5rem;
+    max-width: 15rem;
+    max-height: 15rem;
+}
+
+.cardText {
+    text-align: left;
+    margin-right: 1rem;
+}
+
+.formatTxt {
+    text-indent: 30px;
+    word-wrap: break-word;
+    font-size: 15pt;
+}
+
