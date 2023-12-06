@@ -8,7 +8,7 @@ export default class NavBar extends React.Component {
     render() {
         return (<div className={style.topbar}>
             <div>
-                <h2>{"{Ty Singh}"}</h2>
+                <h2>{"Ty Singh"}</h2>
             </div>
             <div className={style.navContainer}>
                 <Link className={style.navbtn} href="/">Home</Link>
