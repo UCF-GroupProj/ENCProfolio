@@ -1,10 +1,6 @@
 import Topbar from '../Component/topbar';
 import Header from '../Component/header';
 import ContentCard from '../Component/contentCard';
-<<<<<<< HEAD
-=======
-import EmbedContentCard from '../Component/embedContentCard';
->>>>>>> c6fcd819ba010cef1cfdaf5cd0c1fd2932cdb720
 import { Fragment } from 'react';
 import Link from 'next/link';
 
