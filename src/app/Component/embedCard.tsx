@@ -9,7 +9,7 @@ type cardProps = {
     size?: string,  // TODO
 }
 
-export default class embedCard extends React.Component<cardProps> {
+export default class EmbedCard extends React.Component<cardProps> {
     modalBox: React.RefObject<HTMLDivElement>;
     constructor(props: cardProps) {
         super(props);

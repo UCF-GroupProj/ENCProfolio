@@ -1,4 +1,3 @@
-import styles from './page.module.css'
 import Topbar from '../Component/topbar';
 import Header from '../Component/header';
 import ContentCard from '../Component/contentCard';

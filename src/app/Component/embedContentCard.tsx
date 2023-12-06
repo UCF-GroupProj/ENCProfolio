@@ -1,7 +1,7 @@
 'use client';
 
 import React from "react";
-import style from './embedContentCard.module.css';
+import style from "./embedContentCard.module.css";
 
 type cardProps = {
     link: string,
@@ -12,7 +12,7 @@ type cardProps = {
     }
 }
 
-export default class embedContentCard extends React.Component<cardProps> {
+export default class EmbedContentCard extends React.Component<cardProps> {
 
     render() {
         return (<div className={style.mainCard}>

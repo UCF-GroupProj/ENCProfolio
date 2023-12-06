@@ -1,7 +1,7 @@
 'use client';
 
 import React from "react";
-import style from './contentcard.module.css';
+import style from './contentCard.module.css';
 
 type cardProps = {
     image: string,

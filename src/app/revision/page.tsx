@@ -1,7 +1,6 @@
 import Topbar from '../Component/topbar';
 import Header from '../Component/header';
 import ContentCard from '../Component/contentCard';
-import EmbedContentCard from '../Component/embedContentCard.module';
 import { Fragment } from 'react';
 import Link from 'next/link';
 
@@ -11,12 +10,6 @@ export default function Home() {
       <Topbar/>
       <Header text="Revision"/>
       <div className="cardContainer">
-        {/* <EmbedContentCard link="" >
-          <p></p>
-        </EmbedContentCard>
-        <EmbedContentCard link="">
-          <p></p>
-        </EmbedContentCard> */}
         <ContentCard image='./revision/better wording ma1.png' img={{maxWidth: "40rem", maxHeight: "40rem"}}>
           <p>Here is a specific instance where I went to my roomate for revision. I do not normally go to people for revision, but the mandatory peer reviews on my paper were not particularly helpful, only saying that I did a good job. I took my paper to my roomate, then and something that he pointed out is that the draft (on top) sounded snarky.</p>
         </ContentCard>

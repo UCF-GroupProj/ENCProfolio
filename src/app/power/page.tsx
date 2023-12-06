@@ -1,7 +1,7 @@
 import Topbar from '../Component/topbar';
 import Header from '../Component/header';
 import ContentCard from '../Component/contentCard';
-import EmbedContentCard from '../Component/embedContentCard.module';
+import EmbedContentCard from '../Component/embedContentCard';
 import { Fragment } from 'react';
 
 export default function Home() {
