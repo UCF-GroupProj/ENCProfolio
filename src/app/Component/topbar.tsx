@@ -8,14 +8,14 @@ export default class NavBar extends React.Component {
     render() {
         return (<div className={style.topbar}>
             <div>
-                <h2>{"{Our Name Here}"}</h2>
+                <h2>{"{Ty Singh}"}</h2>
             </div>
             <div className={style.navContainer}>
                 <Link className={style.navbtn} href="/">Home</Link>
-                <Link className={style.navbtn} href="/literacy">Multiple Literacies</Link>
-                <Link className={style.navbtn} href="/context">Variation Context</Link>
+                <Link className={style.navbtn} href="/literacy">Multi-literacy</Link>
+                <Link className={style.navbtn} href="/context">Variation in Context</Link>
                 <Link className={style.navbtn} href="/decision">Decision Making</Link>
-                <Link className={style.navbtn} href="/power">Power</Link>
+                <Link className={style.navbtn} href="/power">Powerand Writng</Link>
                 <Link className={style.navbtn} href="/revision">Revision</Link>
                 <Link className={style.navbtn} href="/writing">Writing Process</Link>
                 <Link className={style.navbtn} href="/artifacts">Artifacts</Link>
