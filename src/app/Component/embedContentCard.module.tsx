@@ -1,7 +1,7 @@
 'use client';
 
 import React from "react";
-import style from './embedContentcard.module.css';
+import style from './embedContentCard.module.css';
 
 type cardProps = {
     link: string,
@@ -16,7 +16,7 @@ export default class embedContentCard extends React.Component<cardProps> {
 
     render() {
         return (<div className={style.mainCard}>
-            <div className={style.cardImage}>
+            <div className={style.cardEmbed}>
                 <iframe src={this.props.link} className={style.iframe} allowFullScreen>Embed Loading...</iframe>
             </div>
             <div className={style.cardText}>

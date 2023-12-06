@@ -10,7 +10,7 @@
     margin-bottom: 2rem;
 }
 
-.cardImage iframe {
+.cardEmbed iframe {
     margin-top: 1rem;
     width: 50rem;
     height: 50rem;
@@ -18,12 +18,6 @@
     max-height: 100%;
 }
 
-.cardImage img {
-    cursor: zoom-in;
-    margin-left: 0.5rem;
-    max-width: 15rem;
-    max-height: 15rem;
-}
 
 .cardText {
     text-align: left;

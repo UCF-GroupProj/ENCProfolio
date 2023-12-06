@@ -21,8 +21,8 @@ export default function Home() {
         <EmbedCard title="MA3/MA4 Reflection" link="https://onedrive.live.com/embed?resid=F5390FD113483CC1%2110287&authkey=!ANGo6dCxwVZZ_V0&em=2"/>
         {/* <EmbedCard title="Literacy Freewriting" link=""/> */}
         <EmbedCard title="Exigence Highlighting" link="/writing-processes/highlighting.jpg"/>
-        <EmbedCard title='Gee' link=''/>
-        <EmbedCard title='Giles' link=""/>
+        <EmbedCard title='Giles' link='https://wac.colostate.edu/docs/books/writingspaces1/giles--reflective-writing-and-the-revision-process.pdf'/>
+        <EmbedCard title='Gee' link="https://www.jstor.org/stable/pdf/42743865.pdf"/>
       </div>
     </Fragment>
   )
